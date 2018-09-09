@@ -56,8 +56,4 @@ symbolize = holiday_hash.collect do |season, holiday|
     end
   end
 end
-symbolize.flatten.each do |x|
-    if x == nil
-      symbolize.delete(x)
-  end
-end
+symbolize.flatten.compact
