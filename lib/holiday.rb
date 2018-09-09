@@ -56,5 +56,5 @@ symbolize = holiday_hash.collect do |season, holiday|
     end
   end
 end
-symbolize.flatten
+symbolize
 end
